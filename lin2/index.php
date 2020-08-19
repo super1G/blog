@@ -1,0 +1,1 @@
+<?php echo "in_lin02.com" ?>
