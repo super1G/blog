@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/home','HomeController@index');
+
+Route::match(['get','post'],'/match',function(){
+    return "Match method";
+});
+
+Route::any('/any/{id?}', function($id=69) {
+    return $id;
+});
