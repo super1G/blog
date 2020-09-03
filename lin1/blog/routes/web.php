@@ -12,13 +12,17 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 Route::get('/home','HomeController@index')->name('home');
 
 Route::get('/about',function(){
     return view('about');
 })->name('about');
+
+Route::get('/sign_in',function(){
+    return view('sign_in');
+})->name('sign_in');
 
 Route::match(['get','post'],'/match',function(){
     return "Match method";

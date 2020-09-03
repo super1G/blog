@@ -13,16 +13,16 @@
 
 
         <div class="blog-post">
-          <h2 class="blog-post-title">說明</h2>
+          <h2 class="blog-post-title">奕君網站練習目標</h2>
           <p class="blog-post-meta">8/22, 2020 by <a href="#">EG</a></p>
 
-          <p>文字說明</p>
+          <p>UI</p>
           <ul>
-            <li>條件1</li>
-            <li>條件2</li>
-            <li>條件3</li>
+            <li>網站分頁 about index signin store</li>
+            <li>實作功能 mysql lavarel router MVC Blade Forms github</li>
+            <li></li>
           </ul>
-          <p>其他文字敘述</p>
+          
         </div><!-- /.blog-post -->
 
        

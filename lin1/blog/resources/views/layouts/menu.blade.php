@@ -17,7 +17,7 @@
               <path d="M21 21l-5.2-5.2" />
             </svg>
           </a>
-          <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+          <a class="btn btn-sm btn-outline-secondary" href="{{route('sign_in')}}">Sign up</a>
         </div>
       </div>
     </header>
@@ -25,7 +25,7 @@
     <div class="nav-scroller py-1 mb-2">
       <nav class="nav d-flex justify-content-between">
         <a class="p-2 text-muted" href="{{route('about')}}">about</a>
-        <a class="p-2 text-muted" href="#">products</a>
+        <a class="p-2 text-muted" href="{{route('sign_in')}}">sign in</a>
         <a class="p-2 text-muted" href="#">store</a>
         <a class="p-2 text-muted" href="{{route('home')}}">Home</a>
         
