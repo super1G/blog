@@ -33,6 +33,8 @@
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="{{asset('css/blog.css')}}" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  
   #<link href="../../public/css/blog.css" rel="stylesheet">
 </head>
 

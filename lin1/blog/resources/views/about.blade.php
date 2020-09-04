@@ -719,4 +719,5 @@
     </div><!-- /.row -->
 
   </main><!-- /.container -->
-@endsection
+
+  @endsection

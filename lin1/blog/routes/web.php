@@ -31,3 +31,7 @@ Route::match(['get','post'],'/match',function(){
 Route::any('/any/{id?}', function($id=69) {
     return $id;
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
