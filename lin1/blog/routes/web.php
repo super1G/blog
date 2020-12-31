@@ -10,28 +10,27 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Auth::routes();
+Route::get('/home','HomeController@index')->name('home');
+Route::get('/message','MessageController@index')->name('message');
 
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/home','HomeController@index')->name('home');
 
 Route::get('/about',function(){
     return view('about');
 })->name('about');
 
+Route::get('/club',function(){
+    return view('club');
+})->name('club');
+
 Route::get('/sign_in',function(){
     return view('sign_in');
 })->name('sign_in');
 
-Route::match(['get','post'],'/match',function(){
-    return "Match method";
-});
 
-Route::any('/any/{id?}', function($id=69) {
-    return $id;
-});
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+

@@ -12,6 +12,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="{{ asset('dist/css/bootstrap.min.css')}}" rel="stylesheet">
+  
   #<link href="../../public/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     .bd-placeholder-img {
@@ -35,6 +36,8 @@
   <link href="{{asset('css/blog.css')}}" rel="stylesheet">
   <!-- Custom styles for this template -->
   
+  <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
   #<link href="../../public/css/blog.css" rel="stylesheet">
 </head>
 
@@ -45,6 +48,7 @@
   @yield('content')
   
   @include('layouts.footer')
+  <script src="{{ asset('js/app.js') }}"></script>
 </body>
 
 </html>

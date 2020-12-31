@@ -7,64 +7,60 @@
 @section('content')
     
 <main role="main" class="container">
+  
+    
   <div class="row">
-    <!-- <div class="col-md-8 blog-main"> -->
+
+    <div class="col-3">
       
+        <div class="h3">留言板</div>
+        <textarea class="form-control" rows="7" id="comment"></textarea>
+        <br>
+        <button type="button" class="btn btn-default">送出</button>
+    </div>
+    <div class="col-1">
 
+    </div>
+    
+    <div class="col-8 mb-5">
+      <table class="table table-borderless">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">user</th>
+            <th scope="col">message</th>
+            <th scope="col">time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-      <div class="blog-post">
-        <h2 class="blog-post-title">奕君網站練習目標</h2>
-        <p class="blog-post-meta">8/22, 2020 by <a href="#">EG</a></p>
-
-        <p>UI</p>
-        <ul>
-          <li>網站分頁 about index signin store</li>
-          <li>實作功能 mysql lavarel router MVC Blade Forms github</li>
-          <li></li>
-        </ul>
-        
-      </div><!-- /.blog-post -->
-
-     
-
-    <!--</div><!-- /.blog-main -->
-
-    <aside class="col-md-4 blog-sidebar">
-      <div class="p-4 mb-3 bg-light rounded">
-        <h4 class="font-italic">About</h4>
-        <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit
-          amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-      </div>
-
-      <div class="p-4">
-        <h4 class="font-italic">Archives</h4>
-        <ol class="list-unstyled mb-0">
-          <li><a href="#">March 2014</a></li>
-          <li><a href="#">February 2014</a></li>
-          <li><a href="#">January 2014</a></li>
-          <li><a href="#">December 2013</a></li>
-          <li><a href="#">November 2013</a></li>
-          <li><a href="#">October 2013</a></li>
-          <li><a href="#">September 2013</a></li>
-          <li><a href="#">August 2013</a></li>
-          <li><a href="#">July 2013</a></li>
-          <li><a href="#">June 2013</a></li>
-          <li><a href="#">May 2013</a></li>
-          <li><a href="#">April 2013</a></li>
-        </ol>
-      </div>
-
-      <div class="p-4">
-        <h4 class="font-italic">Elsewhere</h4>
-        <ol class="list-unstyled">
-          <li><a href="#">GitHub</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Facebook</a></li>
-        </ol>
-      </div>
-    </aside><!-- /.blog-sidebar -->
-
-  </div><!-- /.row -->
+    
+  </div>
+  
+  
+    
+    
+  
 
 </main><!-- /.container -->
 @endsection
